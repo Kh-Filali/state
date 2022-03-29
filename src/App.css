@@ -1,0 +1,47 @@
+.app {
+  text-align: center;
+  background-image: url("https://th.bing.com/th/id/R.8840fdfba7112cc8d07b24c76c6a6ae3?rik=niLYgauR0smKPA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-zpynjn2NQOE%2fVHi3VO1ELkI%2fAAAAAAAAAN0%2fT_mKqW63-cM%2fs1600%2flight_blaze_hd_1080p-HD.jpg&ehk=Nkz%2bEwR0RUQl2YHfo14dx7cyI9aOk2mMIQxDah0B%2fUQ%3d&risl=&pid=ImgRaw&r=0");
+  min-height: 100vh;
+}
+.card {
+  border-radius: 10px;
+  max-width: 900px;
+  padding: 25px 35px;
+  background-color: rgba(236, 177, 177, 0.6);
+  box-shadow: 0 10px 10px 10px rgba(57, 255, 8, 0.287);
+}
+.btn {
+  cursor: pointer;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  outline: none;
+  padding: 0.5rem 1.8rem;
+}
+.Myimg{
+  padding: 10px;
+}
+img {
+  border-radius: 15px;
+  width: 200px;
+}
+.data{
+  display: flex;
+  flex-direction:column;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.count {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(26, 21, 21, 0.6);
+  border-radius: 15px;
+  color: white;
+}
